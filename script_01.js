@@ -28,13 +28,30 @@ console.log("------------------");
 //  if(false)  // Damit wird die Abarbeitung des unteren Befehls geblockt
 // der untere Code wird dann matt
 // if(isJohnOlder) 
-if(ageJohn > ageMark)
-{
-    console.log("John ist älter");
-}
+// if(ageJohn > ageMark)
+// {
+//     console.log("John ist älter");
+// }
 
 /***** IF - ELSE *****/
 // mit Alternative
 // entweder ja oder nein
+
+if (isJohnOlder)
+{
+    console.log("John ist älter");
+
+}
+else
+{
+    console.log("John ist jünger");
+
+}
+
+/************  Ternäre (ternary) Schreibweise ************/
+// console.log( (isJohnOlder) ? "John is older" : "Mark is older");
+
+
+
 
 
